@@ -3,13 +3,13 @@ h1{
 }
 
 h1::before{
-    content: "-: Hello World :-";
+    content: "-:HelloWorld:-";
     width: 100%;
     color: #41E2BA;
     position: absolute;
     top: 0;
     left: 0;
-    border-right: .4rem solid;
+    border-right: 0.4rem solid;
     animation: slide 3s linear infinite;
     overflow: hidden;
 }
